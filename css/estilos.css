@@ -43,12 +43,12 @@
 
 /* reglas, selectores, declaraciones, propiedades y valores de CSS */
 body {
-    font-family: 'Source sans pro', sans-serif;
+    font-family: 'Source sans pro', system-ui;
     margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Fjalla one', sans-serif;
+    font-family: 'Fjalla one', system-ui;
 }
 
 /* En CSS, por definición, los estilos se aplican en cascada (Cascade Style Sheet).
@@ -60,13 +60,14 @@ h1 {
     letter-spacing: -.2px; /* valor negativo */
     color: white;
     margin: 0;
+    max-width: 500px;
     /* text-transform: uppercase;
     text-decoration: underline */
 }
 
 h2 {
     color: #026fff;
-    font-family: 'Source sans pro', sans-serif;
+    font-family: 'Source sans pro', system-ui;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -203,7 +204,7 @@ figure {
 }
 
 .project strong {
-    font-family: 'Fjalla one', sans-serif;
+    font-family: 'Fjalla one', system-ui;
 }
 
 .project-imageContainer {
@@ -367,7 +368,7 @@ figure {
 }
 
 .form-email h3 {
-    font-family: 'Source sans pro', sans-serif;
+    font-family: 'Source sans pro', system-ui;
 }
 
 .container {
